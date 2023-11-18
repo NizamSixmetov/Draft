@@ -1,0 +1,104 @@
+/* .anim{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    transition: transform 2s, background-color 2s, width 2s, height 2s;
+    background-color: red;
+}
+.anim:hover{
+    transform: rotate(360deg);
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+} */
+/* 2-ci */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/* .solid{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(90, 134, 175);
+    border-bottom: 15px solid black;
+    position: absolute;
+    top: -250px;
+    transition: top 1s ease-in-out;
+    animation: render 3s ease-in-out infinite;
+}
+.solid:hover{
+    top: 0;
+}
+.solid p{
+    text-align: center;
+    margin-top: 100px;
+}
+@keyframes render{
+    0%{
+        background-color: rgb(90, 134, 175);
+    }
+    50%{
+        background-color: rgb(75, 75, 75);
+    }
+    100%{
+        background-color: rgb(90, 134, 175);
+    }
+} */
+/* 3-cu */
+/* .box{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(151, 66, 66);
+    position: relative;
+    top: 0;
+    left: 0;
+    animation: render 4s infinite;
+}
+@keyframes render{
+    0%{
+        top: 0;
+        left: 0;
+        background-color: rgb(151, 66, 66);
+    }
+    25%{
+        top: 0;
+        left: 300px;
+        background-color: rgb(66, 103, 151);
+        border-radius: 50%;
+    }
+    50%{
+        top: 500px;
+        left: 300px;
+        background-color: rgb(144, 66, 151);
+        border-radius: 0;
+    }
+    75%{
+        top: 500px;
+        left: 0;
+        background-color: rgb(161, 151, 91);
+        border-radius: 50%;
+    }
+}
+.box p{
+    text-align: center;
+    padding-top: 100px;
+} */
+/* 4-cu */
+
+/* .box{
+    border: 10px solid black;
+    border-radius: 50%;
+    border-top: 10px solid white;
+    width: 100px;
+    height: 100px;
+    transition: border-top;
+    animation: rotate 1s infinite;
+}
+@keyframes rotate{
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+} */

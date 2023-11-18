@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --index: calc(1vw + 1vh);
+}
+
+body {
+    background-color: rgb(48, 48, 48);
+    color: greenyellow;
+    /* overflow: hidden; */
+}
+
+body{
+    margin: auto 0;
+}
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: calc(var(--index) * 1);
+    padding: calc(var(--index) * 1.5);
+    border: 5px solid black;
+    box-shadow: 0px 0px 25px red;
+    text-shadow: 0px 0px 30px greenyellow;
+    width: calc(var(--index) * 66);
+}
+.container-text{
+    width: calc(var(--index) * 25);
+}

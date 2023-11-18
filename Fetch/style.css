@@ -1,0 +1,14 @@
+.container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.child_container{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 5px;
+    justify-content: space-around;
+    gap: 15px;
+}
